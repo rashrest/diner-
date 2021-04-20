@@ -9,6 +9,6 @@
       "email": "rshrestha9@mail.greenriver.edu"
     }
   ],
-  "require": {"bcosca/fatfree-core": "dev-dev-master"
+  "require": {"bcosca/fatfree-core": "dev-master"
   }
 }
