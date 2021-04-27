@@ -16,6 +16,13 @@ $f3->route('GET /',function (){
     echo $view-> render('views/home.html');
 });
 
+$f3->route('GET /Orderform',function (){
+    //Display the home page
+    $view = new Template();
+    echo $view-> render('views/Orderform.html');
+});
+
+
 //$f3-> route('GET /Orderform.html')
 
 //Run Fat-Free
